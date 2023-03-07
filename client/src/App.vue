@@ -11,7 +11,7 @@ const $q = useQuasar();
 
 <template>
   <q-layout view="lHh lpR fFf">
-    <q-header elevated class="bg-primary text-white" height-hint="98">
+    <q-header elevated class="bg-white text-black" height-hint="98">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
@@ -23,16 +23,30 @@ const $q = useQuasar();
         </q-toolbar-title>
       </q-toolbar>
 
-      <q-tabs align="left">
+      <!-- <q-tabs >
         <q-route-tab to="/page1" label="Page One" />
         <q-route-tab to="/page2" label="Page Two" />
         <q-route-tab to="/page3" label="Page Three" />
-      </q-tabs>
+      </q-tabs> -->
     </q-header>
 
-    <q-drawer show-if-above v-model="leftDrawerOpen" side="left" behavior="desktop">
+    <q-drawer persistent :breakpoint="400" v-model="leftDrawerOpen" side="left">
       <!-- drawer content -->
     </q-drawer>
+
+    <q-footer bordered class="bg-white text-primary">
+      <q-tabs
+        no-caps
+        active-color="primary"
+        indicator-color="transparent"
+        class="text-grey"
+
+      >
+        <q-tab to="/" name="home" label="Home" />
+        <q-tab name="videos" label="Videos" />
+        <q-tab name="articles" label="Articles" />
+      </q-tabs>
+    </q-footer>
 
     <q-page-container>
       <router-view />
