@@ -11,15 +11,15 @@ const $q = useQuasar();
 
 <template>
   <q-layout view="lHh lpR fFf">
-    <q-header elevated class="bg-white text-black" height-hint="98">
+    <q-header style="height: 15vh" elevated class="bg-accent text-black" height-hint="98">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          Title
+        <q-toolbar-title align="center">
+          <div class="q-ma-lg column items-stretch">
+            <div class="col-12 text-h3 text-uppercase text-weight-bold">R&B Books</div>
+            <div class="col-12 text-h5 text-uppercase">independet Sellers</div>
+          </div>
         </q-toolbar-title>
       </q-toolbar>
 
@@ -30,18 +30,45 @@ const $q = useQuasar();
       </q-tabs> -->
     </q-header>
 
-    <q-drawer persistent :breakpoint="400" v-model="leftDrawerOpen" side="left">
-      <!-- drawer content -->
+    <q-drawer
+      class="bg-secondary text-black"
+      persistent
+      :breakpoint="600"
+      :width="200"
+      v-model="leftDrawerOpen"
+      side="left"
+    >
+      <div style="height: 15vh"></div>
+      <q-list padding class="text-black text-body1 q-pa-none">
+        <q-item clickable v-ripple to="/" active-class="text-white bg-negative">
+          <q-item-section avatar>
+            <q-icon name="home" />
+          </q-item-section>
+          <q-item-section>Home</q-item-section>
+        </q-item>
+        <q-item clickable v-ripple to="/books" active-class="text-white bg-negative">
+          <q-item-section avatar>
+            <q-icon name="book" />
+          </q-item-section>
+          <q-item-section>Books</q-item-section>
+        </q-item>
+        <q-item clickable v-ripple to="/events" active-class="text-white bg-negative">
+          <q-item-section avatar>
+            <q-icon name="event" />
+          </q-item-section>
+          <q-item-section>Events</q-item-section>
+        </q-item>
+        <q-item clickable v-ripple to="/about" active-class="text-white bg-negative">
+          <q-item-section avatar>
+            <q-icon name="person" />
+          </q-item-section>
+          <q-item-section>About us</q-item-section>
+        </q-item>
+      </q-list>
     </q-drawer>
 
     <q-footer bordered class="bg-white text-primary">
-      <q-tabs
-        no-caps
-        active-color="primary"
-        indicator-color="transparent"
-        class="text-grey"
-
-      >
+      <q-tabs no-caps active-color="primary" indicator-color="transparent" class="text-grey">
         <q-tab to="/" name="home" label="Home" />
         <q-tab name="videos" label="Videos" />
         <q-tab name="articles" label="Articles" />

@@ -4,7 +4,7 @@ import helmet from 'helmet';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import testRoute from './api/routes/test.js';
+import testRoute from './api/routes/books.js';
 
 dotenv.config();
 
@@ -20,7 +20,7 @@ app.use(express.static(path.join(dirname, '/public')));
 
 app.use(express.json());
 
-app.use('/test', testRoute);
+app.use('/books', testRoute);
 
 const PORT = process.env.PORT || 5000;
 
