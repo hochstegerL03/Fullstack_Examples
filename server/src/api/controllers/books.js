@@ -1,4 +1,4 @@
-import { dbGetBooks, dbPatchBook } from '../models/books.js';
+import { dbGetBooks, dbPatchBook, dbDeleteBook } from '../models/books.js';
 
 const getBooks = async (req, res) => {
   res.status(200).json(await dbGetBooks());
@@ -14,4 +14,13 @@ const patchBook = async (req, res) => {
   }
 };
 
-export { getBooks, patchBook };
+const deleteBook = async (req, res) => {
+  const status = await dbDeleteBook(req.params.id);
+  if (status) {
+    res.status(200).json(status);
+  } else {
+    res.status(404).send('Not Found');
+  }
+};
+
+export { getBooks, patchBook, deleteBook };

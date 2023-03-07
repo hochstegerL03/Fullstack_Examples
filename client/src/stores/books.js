@@ -16,5 +16,12 @@ export const useBookStore = defineStore('bookStore', {
         return;
       } catch (error) {}
     },
+    async deleteBook(book) {
+      try {
+        await axios.delete(`http://localhost:3000/books/${book.bid}`);
+        await this.getBooks();
+        return;
+      } catch (error) {}
+    },
   },
 });

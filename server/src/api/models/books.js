@@ -7,6 +7,11 @@ const dbGetBooks = async () => {
   return rows;
 };
 
+const dbDeleteBook = async (id) => {
+  const { rows } = await query('DELETE FROM books WHERE bid = $1 RETURNING *', [id]);
+  return rows;
+};
+
 const dbPatchBook = async (book) => {
   console.log(book);
   const client = await pool.connect();
@@ -33,4 +38,4 @@ const dbPatchBook = async (book) => {
   }
 };
 
-export { dbGetBooks, dbPatchBook };
+export { dbGetBooks, dbPatchBook, dbDeleteBook };

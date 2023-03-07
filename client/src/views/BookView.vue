@@ -18,7 +18,11 @@ const editBook = (book) => {
   showEditor.value = true;
 };
 
-const deleteBook = (book) => {};
+const deleteBook = async (book) => {
+  await bookStore.deleteBook(book);
+  books.value = storeToRefs(bookStore).books.value;
+
+};
 
 const saveChanges = async () => {
   console.log(currBook.value);
