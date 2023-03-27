@@ -47,62 +47,63 @@ function alertFunc() {
     <q-img src="../assets/images/1-blick-auf-die-ringstrasse-40707.jpg"></q-img>
     <div class="text-center text-secondary text-h5 q-mt-md">Sightseeing in Wien</div>
     <div class="flex justify-center q-mx-md">
-      <div>
+      <div style="width: 100%">
         <div class="text-body2 q-my-md">
           Es gibt viel zu sehen: Vom gotischen Stephansdom über die imperiale Hofburg bis zu
           Jugendstil, vom Barockschloss Schönbrunn über spannende Museen bis zu aktueller
           Architektur.
         </div>
         <!-- <q-responsive :ratio="16 / 9"> -->
-          <q-table
-            wrap-cells
-            :rows="myStore.sights"
-            :columns="columns"
-            row-key="id"
-            :visible-columns="visibleColumns()"
-            hide-header
-          >
-            <template #body-cell-image="prop">
-              <q-td :prop="prop" class="gt-xs">
-                <q-img
-                  style="width: 33vw"
-                  :src="`http://localhost:3000${prop.row.image}`"
-                  crossorigin="anonymous"
-                />
-              </q-td>
-            </template>
-            <template #body-cell-title="prop">
-              <q-td :prop="prop">
-                <div>
-                  <div class="text-weight-bold text-h6">{{ prop.row.title }}</div>
-                  <div class="q-mt-md subtitle1"><b>Eintritt:</b> {{ prop.row.admission }}</div>
-                </div>
-              </q-td>
-            </template>
-            <template #body-cell-description="prop">
-              <q-td :prop="prop" class="gt-xs">
-                <div>
-                  <p>{{ prop.row.description }}</p>
-                </div>
-              </q-td>
-            </template>
-            <template #body-cell-rating="prop">
-              <q-td :prop="prop">
-                <div class="flex justify-center">
-                  <q-rating
-                    size="1.2em"
-                    color="yellow-10"
-                    :max="5"
-                    v-model="prop.row.rating"
-                    readonly
-                  ></q-rating>
-                </div>
-                <q-btn flat @click="show(prop.row)" class="text-center text-body2"
-                  >Neue Bewerten</q-btn
-                >
-              </q-td>
-            </template>
-          </q-table>
+        <q-table
+          wrap-cells
+          style="width: 100%"
+          :rows="myStore.sights"
+          :columns="columns"
+          row-key="id"
+          :visible-columns="visibleColumns()"
+          hide-header
+        >
+          <template #body-cell-image="prop">
+            <q-td :prop="prop" class="gt-xs">
+              <q-img
+                style="width: 33vw"
+                :src="`http://localhost:3000${prop.row.image}`"
+                crossorigin="anonymous"
+              />
+            </q-td>
+          </template>
+          <template #body-cell-title="prop">
+            <q-td :prop="prop">
+              <div>
+                <div class="text-weight-bold text-h6">{{ prop.row.title }}</div>
+                <div class="q-mt-md subtitle1"><b>Eintritt:</b> {{ prop.row.admission }}</div>
+              </div>
+            </q-td>
+          </template>
+          <template #body-cell-description="prop">
+            <q-td :prop="prop" class="gt-xs">
+              <div>
+                <p>{{ prop.row.description }}</p>
+              </div>
+            </q-td>
+          </template>
+          <template #body-cell-rating="prop">
+            <q-td :prop="prop">
+              <div class="flex justify-center">
+                <q-rating
+                  size="1.2em"
+                  color="yellow-10"
+                  :max="5"
+                  v-model="prop.row.rating"
+                  readonly
+                ></q-rating>
+              </div>
+              <q-btn flat @click="show(prop.row)" class="text-center text-body2"
+                >Neue Bewerten</q-btn
+              >
+            </q-td>
+          </template>
+        </q-table>
         <!-- </q-responsive> -->
       </div>
     </div>
