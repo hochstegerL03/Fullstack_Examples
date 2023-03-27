@@ -1,0 +1,24 @@
+[
+  {
+    "firstName": "Cindy",
+    "lastName": "Lockwood",
+    "age": 32,
+    "status": "married"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Berger",
+    "age": 12,
+    "job": "student"
+  },
+  {
+    "firstName": "Janina",
+    "lastName": "Berger",
+    "age": 20
+  },
+  {
+    "firstName": "Francis",
+    "lastName": "Berger",
+    "age": 23
+  }
+]

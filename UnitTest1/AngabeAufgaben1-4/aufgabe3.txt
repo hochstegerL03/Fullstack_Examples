@@ -1,0 +1,3 @@
+Es wurde "012" zurückgegeben, der Grund dafür ist,
+ dass er die Null als einen String angesehen hat,
+ um die "12" damti mit dem + Operator verbinden zu können.

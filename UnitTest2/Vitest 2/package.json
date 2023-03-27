@@ -1,0 +1,16 @@
+{
+  "name": "unit-tests",
+  "version": "1.0.0",
+  "description": "unit tests of various sorts",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --reporter verbose"
+  },
+  "keywords": [],
+  "author": "RB",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.28.4"
+  }
+}

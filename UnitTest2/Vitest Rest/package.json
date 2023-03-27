@@ -1,0 +1,23 @@
+{
+  "name": "node-vitest-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "vitest --reporter verbose"
+  },
+  "keywords": [],
+  "author": "RB",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.2.5",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3",
+    "vitest": "^0.28.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

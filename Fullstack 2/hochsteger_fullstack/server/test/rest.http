@@ -1,0 +1,3 @@
+GET http://localhost:3000/sights
+#######
+PATCH http://127.0.0.1:3000/sights/1

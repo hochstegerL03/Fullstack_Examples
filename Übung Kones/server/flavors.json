@@ -1,0 +1,251 @@
+{
+  "flavors": [
+    {
+      "name": "Almond Brittle Fudge",
+      "price": 7.9,
+      "rating": 5,
+      "reviews": 3,
+      "image": "Almond Brittle Fudge.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS SOY. GLUTEN-FREE.",
+      "description": "This flavour is full of crunchy brittle candy pieces that are made from crushed almonds, cacao nibs, dairy-free chocolate, and chia seeds. We are a proponent of integrating more whole foods into our overall diet and these good-for-you ingredients are so you can satisfy your sweet tooth on a positive note!",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Vanilla",
+        "Sea Salt",
+        "Almonds",
+        "Cacao Nibs",
+        "Chia Seeds",
+        "Dairy-free Chocolate Chips",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Baklava",
+      "price": 7.9,
+      "rating": -1,
+      "reviews": 0,
+      "image": "Baklava.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS GLUTEN.",
+      "description": "Our decadent Baklava flavour is like the actual dessert in an ice cream form. Our homemade Baklava is packed with buttery, flaky filo pastry, walnuts, nutmeg, and pistachios crushed into our classic cashew-coconut milk base with cinnamon and maple swirl making it the ultimate dessert for all baklava lovers.",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Maple",
+        "Home-made Baklava (Filo Pastry, Walnuts, Pistachios, Lemon & Orange Zest)",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Black Forest",
+      "price": 7.9,
+      "rating": 4,
+      "reviews": 2,
+      "image": "Black Forest.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS SOY. GLUTEN-FREE.",
+      "description": "Imagine the popular German cake in the form of ice cream. Rich vegan chocolate brownies and homemade cherry compote are swirled into our classic coconut cashew milk base.",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Almond Milk",
+        "Vanilla",
+        "Brownie Chunks",
+        "Cherry Compote",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Black Sesame Cookies",
+      "price": 7.9,
+      "rating": 5,
+      "reviews": 5,
+      "image": "Black Sesame Cookies.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. GLUTEN-FREE.",
+      "description": "We're ushering in the Lunar New Year with our take on traditional Black Sesame Cookies in our coconut-cashew base.",
+      "ingredients": [
+        "Black Sesame",
+        "Coconut Milk",
+        "Cashew Milk",
+        "Almonds",
+        "Vanilla",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Blue Planet",
+      "price": 7.9,
+      "rating": 3,
+      "reviews": 7,
+      "image": "Blue Planet.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS GLUTEN.",
+      "description": "Looks like our beautiful planet when scooped. Our classic coconut cashew vanilla base is naturally coloured blue with butterfly pea flowers, then we fold in fluffy chunks of matcha cake. The slight bitterness of the matcha add depth and balance to the flavour.",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Vanilla",
+        "Butterfly",
+        "Pea Flower",
+        "Matcha Cake (made with Almond Milk)",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Charcoal Vanilla",
+      "price": 7.9,
+      "rating": -1,
+      "reviews": 0,
+      "image": "Charcoal Vanilla.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. GLUTEN-FREE.",
+      "description": "Experience all of the flavour of our classic vanilla, but with a fun twist. Scoop up gray-black ice cream with the added detoxifying benefits of activated charcoal.",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Vanilla",
+        "Activated Japanese Bamboo Charcoal",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Chocolate Sorbet",
+      "price": 5.9,
+      "rating": 5,
+      "reviews": 9,
+      "image": "Chocolate Sorbet.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. TRACES OF NUTS.",
+      "description": "Death by chocolate... literally. Rich and creamy without any plant milk.",
+      "ingredients": ["Cocoa Powder", "Cocoa Mass", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Coffee Chocolate Fudge Swirl",
+      "price": 7.9,
+      "rating": 4,
+      "reviews": 19,
+      "image": "Coffee Chocolate Fudge Swirl.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS SOY. GLUTEN-FREE.",
+      "description": "A decadent and creamy caffeine treat for our coffee lovers! Our delicious cashew-coconut milk base is packed with the perfect hint of espresso and swirled with ribbons of rich chocolate ganache to give you the ultimate coffee experience. Trust us when we say this would be a good sub for your morning coffee",
+      "ingredients": ["Coconut Milk", "Cashew Milk", "Chocolate Ganache", "Espresso"]
+    },
+    {
+      "name": "Durian",
+      "price": 7.9,
+      "rating": 3,
+      "image": "Durian.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. GLUTEN-FREE.",
+      "description": "Known for its strong odour, the \"king of fruits\" is fragrant and pleasant for some, while incredibly offensive to others. We blend the creamy flesh into our classic coconut milk base to create this unique flavour.",
+      "ingredients": ["Coconut Milk", "Cashew Milk", "Durian", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Keto Avocado Coconut",
+      "price": 7.9,
+      "rating": 5,
+      "reviews": 21,
+      "image": "Keto Avocado Coconut.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. TRACES OF NUTS.",
+      "description": "We have a newcomer to our Keto club! – Our Keto Avocado Coconut could be the key to your heart. Loaded with fresh avocados churned together with coconut milk and sweetened with xylitol – these are not only soy free, nut free and gluten free, but deliciously mild and creamy.",
+      "ingredients": ["Coconut Milk", "Avocado", "Lemon Juice", "Xylitol"]
+    },
+    {
+      "name": "Madagascan Vanilla Bean",
+      "price": 7.9,
+      "rating": 4,
+      "reviews": 9,
+      "image": "Madagascan Vanilla Bean.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. CONTAINS NUTS.",
+      "description": "As classic as classic can get without the egg.",
+      "ingredients": ["Coconut Milk", "Cashew Milk", "Madagascan Vanilla Bean", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Passion Fruit Sorbet",
+      "price": 5.9,
+      "rating": 3,
+      "reviews": 2,
+      "image": "Passion Fruit Sorbet.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. TRACES OF NUTS.",
+      "description": "It's like you're eating the actual fruit. Enough said.",
+      "ingredients": ["Passionfruit", "Lemon", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Peanut Buttercup",
+      "price": 7.9,
+      "rating": 5,
+      "reviews": 2,
+      "image": "Peanut Buttercup.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS SOY. GLUTEN-FREE.",
+      "description": "We home make our own version of this popular chocolate candy, crush it, then generously fold it into our classic coconut cashew base and add in some extra roasted peanut chunks.",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Vanilla",
+        "Homemade Peanut Butter Cup",
+        "Corn Flour",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Pecan Praline",
+      "price": 6.2,
+      "rating": 4,
+      "reviews": 12,
+      "image": "Pecan Praline.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. CONTAINS NUTS",
+      "description": "A sweet, nutty, and buttery ice cream packed with crunchy caramelised praline pecans in a cashew and coconut milk base. This is sure to be your new flavour obsession.",
+      "ingredients": [
+        "Cashew Milk",
+        "Coconut Milk",
+        "Pecans",
+        "Cacao Nibs",
+        "Cocoa Butter",
+        "Cocoa Mass",
+        "Maple Syrup",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Salted Chocolate Chip",
+      "price": 5.9,
+      "rating": 4,
+      "reviews": 15,
+      "image": "Salted Chocolate Chip.webp",
+      "summary": "PLANT-BASED. VEGAN. CONTAINS NUTS. CONTAINS SOY. GLUTEN-FREE.",
+      "description": "This flavour was created by accident. In our early days, our chef was prepping a batch of Dark Chocolate and accidentally added more salt. But this mistake turned into a win because they tried it and were surprised at how good it tasted!",
+      "ingredients": [
+        "Coconut Milk",
+        "Cashew Milk",
+        "Cocoa Powder",
+        " Vanilla",
+        "Dairy-free Chocolate Chips",
+        "Raw Cane Sugar"
+      ]
+    },
+    {
+      "name": "Strawberry",
+      "price": 7.9,
+      "rating": 5,
+      "reviews": 6,
+      "image": "Strawberry.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. TRACES OF NUTS.",
+      "description": "Can't go wrong with classic flavours. Bursting with Belgian strawberries and bananas blended into our coconut almond milk base.",
+      "ingredients": [" Coconut Milk", "Belgian Strawberries", "Banana", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Virgin Mojito",
+      "price": 7.9,
+      "rating": 3,
+      "reviews": 8,
+      "image": "Virgin Mojito.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE.",
+      "description": "We're celebrating Dry January with our take on a Virgin Mojito. Refreshing and tart, this sorbet combines lemon and mint for a zesty treat for the new year.",
+      "ingredients": ["Lemon", "Mint", "Lime Zest", "Water", "Raw Cane Sugar"]
+    },
+    {
+      "name": "Watermelon Strawberry Mint",
+      "price": 5.9,
+      "rating": 5,
+      "reviews": 11,
+      "image": "Watermelon Strawberry Mint.webp",
+      "summary": "PLANT-BASED. VEGAN. GLUTEN-FREE. TRACES OF NUTS",
+      "description": "A fruity combination of fresh watermelon and strawberries paired with a touch of fresh mint for an herbal flair and a hint of lemon for a touch of acidity. Recommended for those hot days when you're seeking something light and refreshing.",
+      "ingredients": ["Watermelon", "Strawberries", "Lemon", "Raw Cane Sugar"]
+    }
+  ]
+}
