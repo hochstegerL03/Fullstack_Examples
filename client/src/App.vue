@@ -11,7 +11,7 @@ const $q = useQuasar();
 
 <template>
   <q-layout view="lHh lpR fFf">
-    <q-header style="height: 15vh" elevated class="bg-accent text-black" height-hint="98">
+    <q-header style="height: 8rem" elevated class="bg-accent text-black" height-hint="98">
       <q-toolbar>
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
@@ -38,7 +38,7 @@ const $q = useQuasar();
       v-model="leftDrawerOpen"
       side="left"
     >
-      <div style="height: 15vh"></div>
+      <div style="height: 8rem"></div>
       <q-list padding class="text-black text-body1 q-pa-none">
         <q-item clickable v-ripple to="/" active-class="text-white bg-negative">
           <q-item-section avatar>
@@ -69,7 +69,7 @@ const $q = useQuasar();
 
     <q-footer bordered class="bg-white text-primary">
       <q-tabs no-caps active-color="primary" indicator-color="transparent" class="text-grey">
-        <q-tab to="/" name="home" label="Home" />
+        <q-tab  to="/" name="home" label="Home" />
         <q-tab name="videos" label="Videos" />
         <q-tab name="articles" label="Articles" />
       </q-tabs>
